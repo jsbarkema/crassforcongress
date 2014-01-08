@@ -154,7 +154,7 @@ h1 {
   width: 100%;
   margin-bottom: 2.5em;
   border-bottom: 2px solid #deddbe;
-  background-image: url("../img/stand-in.jpg");
+  background-image: url("../img/steve-bio.png");
   background-repeat: no-repeat;
   background-position: 95% 0;
   min-height: 33em; }
@@ -241,7 +241,7 @@ h1 {
 /* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
   .about-top {
-    background-image: url("../img/stand-in.jpg");
+    background-image: url("../img/steve-bio.png");
     background-repeat: no-repeat;
     background-position: 180% 0; }
 
@@ -252,7 +252,7 @@ h1 {
     margin-bottom: -12em; } }
 @media only screen and (min-width: 820px) and (max-width: 1024px) {
   .about-top {
-    background-image: url("../img/stand-in.jpg");
+    background-image: url("../img/steve-bio.png");
     background-repeat: no-repeat;
     background-position: 110% 0; }
 
@@ -264,7 +264,7 @@ h1 {
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
   .about-top {
-    background-image: url("../img/stand-in.jpg");
+    background-image: url("../img/steve-bio.png");
     background-repeat: no-repeat;
     background-position: 90% 0; }
 
@@ -284,7 +284,7 @@ h1 {
     margin-left: 30%; }
 
   .about-top {
-    background-image: url("../img/stand-in.jpg");
+    background-image: url("../img/steve-bio.png");
     background-repeat: no-repeat;
     background-position: 70% 0; }
 
@@ -299,7 +299,7 @@ h1 {
     padding: 22em 0 5em 0; }
 
   .about-top {
-    background-image: url("../img/stand-in.jpg");
+    background-image: url("../img/steve-bio.png");
     background-repeat: no-repeat;
     background-position: 65% 0; }
 

@@ -1,10 +1,4 @@
 <!doctype html>
-<!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-  <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-  <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
-<![endif]-->
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -20,7 +14,11 @@
 		<script src="assets/js/vendor/modernizr.min.js"></script>
 	</head>
 	<body>
-		<!--[if lte IE 8]><script>location.replace("ie8");</script><![endif]-->
+		<!--[if lte IE 8]>
+			<script type="text/javascript">
+        window.location = "http://www.crassforcongress.com/ie8";
+			</script>
+		<![endif]-->
 		<!-- Top Bar -->
 		<div class="contain-to-grid fixed">		
 	<nav class="top-bar fixed" data-topbar>			
@@ -39,6 +37,8 @@
 		  	<li class="divider"></li>
 		  	<li><a href="contact.html" >Contact</a></li>
 		  	<li class="divider"></li>
+		  	<li><a href="https://www.completecampaigns.com/public.asp?name=CrassSteve&page=1" target="_blank">Donate</a></li>
+		  	<li class="divider"></li>
 			</ul>
 		</section>
 	</nav>
@@ -54,7 +54,6 @@
 	<div class="row">
 		<div class="medium-6 large-6 columns">
 			<p class="lead">The Valley needs a new generation of leaders. Steve believes that effective representation requires a perspective gained outside of the Washington D.C. bubble. To that end, he has spent his career acquiring the skills and experiences to be an effective leader. As a father of three, he wants to ensure all of our children have the same advantages that he had growing up in the Valley.</p>
-			<a href="mailto:steve@crassforcongress.com">Contact Steve</a>
 		</div>
 		<div class="medium-6 large-6 columns"></div>
 	</div>
@@ -80,7 +79,7 @@
 		
 		<h4>Team Crass</h4>
 		<p>Steve is running because he believes that the next generation of representatives should focus on legislation and not the trappings of simply being a politician. Representation, by definition, cannot be done alone. By embracing our core Valley values, together we can make the Valley strong.</p>	
-		<a href="#" class="button large radius">Donate</a>
+		<a href="https://www.completecampaigns.com/public.asp?name=CrassSteve&page=1" class="button large radius" target="_blank">Donate</a>
 	</div>
 </div><!-- End Row -->
 
@@ -144,7 +143,6 @@
 <script src="assets/js/foundation/foundation.topbar.min.js"></script>
 <script src="assets/js/vendor/ss-standard.min.js"></script>
 <script src="assets/js/vendor/ss-social.min.js"></script>
-<script src="assets/js/vendor/rem.min.js"></script>
 <script>
 $(document).foundation();
 </script>

@@ -1,10 +1,4 @@
 <!doctype html>
-<!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-  <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-  <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
-<![endif]-->
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -20,7 +14,11 @@
 		<script src="assets/js/vendor/modernizr.min.js"></script>
 	</head>
 	<body>
-		<!--[if lte IE 8]><script>location.replace("ie8");</script><![endif]-->
+		<!--[if lte IE 8]>
+			<script type="text/javascript">
+        window.location = "http://www.crassforcongress.com/ie8";
+			</script>
+		<![endif]-->
 		<!-- Top Bar -->
 		<div class="contain-to-grid fixed">		
 	<nav class="top-bar fixed" data-topbar>			
@@ -39,6 +37,8 @@
 		  	<li class="divider"></li>
 		  	<li><a href="contact.html" >Contact</a></li>
 		  	<li class="divider"></li>
+		  	<li><a href="https://www.completecampaigns.com/public.asp?name=CrassSteve&page=1" target="_blank">Donate</a></li>
+		  	<li class="divider"></li>
 			</ul>
 		</section>
 	</nav>
@@ -55,7 +55,7 @@
 			<a href="about.html" class="outline-button">Meet Steve</a><br>	
 		</div>
 		<div class="medium-4 large-4 columns donate-home">
-			<a href="#" class="button medium radius">Donate</a>
+			<a href="https://www.completecampaigns.com/public.asp?name=CrassSteve&page=1" class="button medium radius" target="_blank">Donate</a>
 		</div>
 	</div>
 </section>
@@ -121,7 +121,6 @@
 <script src="assets/js/foundation/foundation.topbar.min.js"></script>
 <script src="assets/js/vendor/ss-standard.min.js"></script>
 <script src="assets/js/vendor/ss-social.min.js"></script>
-<script src="assets/js/vendor/rem.min.js"></script>
 <script>
 $(document).foundation();
 </script>
