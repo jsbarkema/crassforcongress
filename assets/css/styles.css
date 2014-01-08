@@ -120,10 +120,6 @@ body {
   .outline-button:hover {
     background: #fff; }
 
-/* TODO: Kill this style if not used */
-/*.new-button {
-	@include button;
-} */
 h1 {
   color: #224777;
   color: #224777;
@@ -243,7 +239,7 @@ h1 {
   .about-top {
     background-image: url("../img/steve-bio.png");
     background-repeat: no-repeat;
-    background-position: 180% 0; }
+    background-position: 800% -60%; }
 
   .footer {
     height: 12em; }
